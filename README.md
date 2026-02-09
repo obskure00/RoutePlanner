@@ -35,7 +35,7 @@ Key Features:
 
 Project Structure:
 
-'''plaintext
+```plaintext
 
 RoutePlanner/
 │
@@ -68,11 +68,13 @@ RoutePlanner/
 ├── LICENSE
 └── README.md
 
-'''plaintext
+```plaintext
 
 
 Architecture & Design:
-'''
+
+```plaintext
+
 +----------------------+
 |      CLI Layer       |
 |  (User Interaction)  |
@@ -92,7 +94,8 @@ Architecture & Design:
 |   I/O Utilities      |
 | (File Parsing)       |
 +----------------------+
-'''
+
+´´´plaintext
 
 Graph Implementation:
 
