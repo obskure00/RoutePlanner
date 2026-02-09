@@ -34,7 +34,7 @@ Key Features:
 
 
 Project Structure:
-
+'''
 RoutePlanner/
 │
 ├── include/                # Public header files
@@ -65,10 +65,10 @@ RoutePlanner/
 ├── Makefile                # Build and test automation
 ├── LICENSE
 └── README.md
-
+'''
 
 Architecture & Design:
-
+'''
 +----------------------+
 |      CLI Layer       |
 |  (User Interaction)  |
@@ -88,7 +88,7 @@ Architecture & Design:
 |   I/O Utilities      |
 | (File Parsing)       |
 +----------------------+
-
+'''
 
 Graph Implementation:
 
