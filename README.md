@@ -68,7 +68,7 @@ RoutePlanner/
 ├── LICENSE
 └── README.md
 
-```plaintext
+```
 
 
 Architecture & Design:
@@ -95,7 +95,7 @@ Architecture & Design:
 | (File Parsing)       |
 +----------------------+
 
-´´´plaintext
+```
 
 Graph Implementation:
 
@@ -148,8 +148,10 @@ Each edge represents a single directional connection.
 Undirected graphs:
 Represented internally by inserting two directed edges:
 
+```plaintext
 u → v
 v → u
+```
 
 This approach:
 
@@ -293,6 +295,8 @@ Input File Format:
 Graphs are loaded from plain text files.
 Example (data/sample_graph.txt):
 
+```plaintext
+
 # number_of_nodes number_of_edges
 5 6
 
@@ -303,6 +307,8 @@ Example (data/sample_graph.txt):
 1 2 10
 2 3 11
 3 4 6
+
+```
 
 Rules:
 
@@ -320,15 +326,23 @@ Requirements:
 - Make
 - Standard C library
 
+```
+
 make all
+
+```
 
 This produces the main executable and all required object file.
 
+```
 ./route_planner.exe <graph.txt>
+```
 
 Testing:
 
+```
 make tests
+```
 
 The test suite uses Acutest, a lightweight, dependency-free C testing framework and tests:
 
